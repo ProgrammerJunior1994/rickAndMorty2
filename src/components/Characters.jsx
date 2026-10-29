@@ -18,7 +18,7 @@ export default function Characters () {
                         </div>
                         <div>
                             <h3>{character.name}</h3>
-                            <h6>{character.status == "Alive" ? "Vivo" : "Dead" ? "Muerto" :'' "Desconocido"}</h6>
+                            <h6>{character.status == "Alive" ? "Vivo" : "Dead" ? "Muerto" :"Desconocido"}</h6>
                             <p className="text-field">{character.episode.length} episodios</p>
                         </div>
                     </diiv>
